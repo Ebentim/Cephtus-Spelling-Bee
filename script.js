@@ -359,15 +359,15 @@ function showQuiz(index) {
       </h4>
       <form action="" class="form-control">
         <div class="d-flex flex-row-reverse justify-content-end align-items-center h6">
-          <label for="option1" class="ms-3 w-100">${value.options[0]}</label>
+          <label for="1" class="ms-3 w-100">${value.options[0]}</label>
           <input type="radio" name="option1" id="1"/>
         </div>
         <div class="d-flex flex-row-reverse justify-content-end align-items-center h6">
-          <label for="option2" class="ms-3 w-100">${value.options[1]}</label>
+          <label for="2" class="ms-3 w-100">${value.options[1]}</label>
           <input type="radio" name="option1" id="2"/>
         </div>
         <div class="d-flex flex-row-reverse justify-content-end align-items-center h6">
-          <label for="option3" class="ms-3 w-100">${value.options[2]}</label>
+          <label for="3" class="ms-3 w-100">${value.options[2]}</label>
           <input type="radio" name="option1" id="3" />
         </div>
       </form>
