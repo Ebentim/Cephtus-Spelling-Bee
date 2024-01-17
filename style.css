@@ -1,16 +1,4 @@
 .card-img-top{
     height: 150px;
 }
-#instruction{
-    animation: info 20s linear infinite;
-    /* overflow: hidden; */
-    white-space: nowrap;
-}
-    @keyframes info {
-        0%{
-            transform: translateX(100%);
-        }
-        100%{
-            transform: translateX(-100%);
-        }
-    }
+  
