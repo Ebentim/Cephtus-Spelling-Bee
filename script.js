@@ -1,3 +1,8 @@
+"use-strict"
+const EngQuiz = document.getElementById("English-Quiz")
+EnglishQuiz.addEventListener("click", () => {
+    location.replace("english.html")
+})
 function speaks(word) {
   const synth = window.speechSynthesis; // Corrected 'speechSynthesis' to 'window.speechSynthesis'
   const utterance = new SpeechSynthesisUtterance(word);
